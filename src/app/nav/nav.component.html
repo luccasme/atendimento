@@ -1,0 +1,60 @@
+<mat-sidenav-container class="sidenav-container">
+    <mat-sidenav #sidenav mode="side" opened class="sidenav">
+      <h2 *ngIf="loggedIn" style="color: #ffffff">Seja bem-vindo!</h2>
+      
+      <mat-list >
+        <mat-list-item *ngIf="!loggedIn" >
+          <a mat-line style="color: #ffffff; display: flex; align-items: center;" routerLink="login">Login <mat-icon style="margin-left: .5rem;">login</mat-icon></a>
+        </mat-list-item>
+
+        <mat-expansion-panel *ngIf="loggedIn">
+          <mat-expansion-panel-header>
+            <mat-panel-title style="color: #ffffff; font-size: 16px;">
+              Cadastro 
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          
+          <mat-list-item>
+            <a mat-line style="color: #ffffff;"  routerLink="cadastrar">Cadastrar</a>
+          </mat-list-item>
+          <mat-list-item>
+            <a mat-line style="color: #ffffff;" routerLink="consultar">Consultar</a>
+          </mat-list-item>
+        </mat-expansion-panel>
+
+       
+
+        <mat-list >
+          <mat-list-item *ngIf="loggedIn">
+            <a mat-line class="list-link" style="color: #ffffff;  margin: .5rem;" routerLink="consultorios"> 
+              Consultórios
+            </a>
+          </mat-list-item>
+        </mat-list>
+        
+  
+        <mat-list-item *ngIf="loggedIn">
+          <a mat-line class="list-link" style="color: #ffffff;  margin: .5rem;" routerLink="painel-senhas">
+            Painel de senhas
+          </a>
+        </mat-list-item>
+      </mat-list>
+    </mat-sidenav>
+    
+    <mat-sidenav-content >
+      <div class="header" *ngIf="loggedIn">
+          <button mat-icon-button (click)="sidenav.toggle()">
+              <mat-icon>menu</mat-icon>
+          </button>
+          
+          <button mat-icon-button class="logout-btn" (click)="logOut()" routerLink="login">
+              <mat-icon>logout</mat-icon> 
+          </button>
+      </div>
+  
+      <router-outlet></router-outlet>
+
+  </mat-sidenav-content>
+  </mat-sidenav-container>
+
+  

@@ -1,0 +1,29 @@
+/* Estilização para o contêiner geral do formulário. */
+form {
+  display: flex;
+  flex-direction: column; 
+  max-width: 400px; /* Largura máxima do formulário. */
+  margin: 40px auto; /* Centraliza o formulário verticalmente e horizontalmente. */
+  padding: 20px; 
+  border-radius: 8px; 
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mat-form-field {
+  margin-bottom: 24px; /* Espaçamento entre o campo de entrada e o botão. */
+}
+
+.login-button {
+  align-self: center; 
+  width: 100%; 
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+table {
+  width: 100%;
+}

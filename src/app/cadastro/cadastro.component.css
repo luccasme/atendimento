@@ -1,0 +1,25 @@
+h2 {
+  color: black;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.form-field {
+    width: 100%;
+   
+  }
+  
+  form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 18px;
+    
+  }
+
+  button {
+    width: 100%;
+    min-width: 200px;
+    
+  }
+  

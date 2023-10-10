@@ -1,0 +1,37 @@
+.consultorio-card {
+  max-width: 200px;
+  height: 80px;
+
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: .5rem 0 .5rem 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.consultorio-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nome {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.status {
+  font-size: 14px;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.status.ocupado {
+  background-color: #f44336; 
+  color: white;
+}
+
+.status:not(.ocupado) {
+  background-color: #4CAF50; 
+  color: white;
+}

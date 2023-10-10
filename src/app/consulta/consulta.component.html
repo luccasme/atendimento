@@ -1,0 +1,12 @@
+<h2>Consultar paciente</h2>
+
+<form [formGroup]="cpfForm" (ngSubmit)="consultar()">
+    <mat-form-field class="form-field">
+      <mat-label>CPF</mat-label>
+      <input matInput formControlName="cpf" placeholder="Digite o CPF">
+    </mat-form-field>
+  
+    <button mat-raised-button color="primary" class="login-button" type="submit">Consultar</button>
+  </form>
+
+  

@@ -1,0 +1,57 @@
+<h2>Cadastrar novo paciente</h2>
+<form>
+    <mat-form-field class="form-field">
+      <mat-label>Nome</mat-label>
+      <input matInput type="text">
+    </mat-form-field>
+  
+    <mat-form-field class="form-field">
+      <mat-label>Sobrenome</mat-label>
+      <input matInput type="text">
+    </mat-form-field>
+  
+    <mat-form-field class="form-field">
+      <mat-label>CPF</mat-label>
+      <input matInput type="text">
+    </mat-form-field>
+  
+    <mat-form-field class="form-field">
+      <mat-label>Data de Nascimento</mat-label>
+      <input matInput [matDatepicker]="picker">
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+  
+    <mat-form-field class="form-field">
+      <mat-label>Nome da Mãe</mat-label>
+      <input matInput type="text">
+    </mat-form-field>
+  
+    <mat-form-field class="form-field">
+      <mat-label>Cidade</mat-label>
+      <input matInput type="text">
+    </mat-form-field>
+  
+    <mat-form-field class="form-field">
+      <mat-label>Bairro</mat-label>
+      <input matInput type="text">
+    </mat-form-field>
+  
+    <mat-form-field class="form-field">
+      <mat-label>Rua</mat-label>
+      <input matInput type="text">
+    </mat-form-field>
+  
+    <mat-form-field class="form-field">
+      <mat-label>Número</mat-label>
+      <input matInput type="text">
+    </mat-form-field>
+  
+    <mat-form-field class="form-field">
+      <mat-label>CEP</mat-label>
+      <input matInput type="text">
+    </mat-form-field>
+  
+    <button mat-raised-button color="primary">Cadastrar</button>
+  </form>
+  

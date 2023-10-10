@@ -1,0 +1,6 @@
+<div *ngFor="let consultorio of consultorios" class="consultorio-card">
+  <div class="consultorio-info">
+      <span class="nome">{{consultorio.nome}}</span>
+      <span class="status" [class.ocupado]="consultorio.ocupado">{{consultorio.ocupado ? 'Ocupado' : 'Disponível'}}</span>
+  </div>
+</div>
