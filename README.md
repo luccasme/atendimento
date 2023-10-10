@@ -1,27 +1,21 @@
-# SistemaSenhas
+# Sistema de Atendimento para Clínicas e Hospitais
+🚧 **Fase: Em Desenvolvimento** 🚧
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+O Sistema de Atendimento foi projetado especificamente para clínicas e hospitais, buscando otimizar o processo de atendimento, verificação de credenciais e gestão de consultórios.
 
-## Development server
+🌟 **Destaques**
+<ul>
+<li>Verificação de Credenciais: A segurança é uma prioridade. Nosso sistema garante que apenas indivíduos autorizados possam acessar dados sensíveis.</li>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<li>Cadastro de Pacientes: Facilite o processo de registro de pacientes, permitindo uma consulta rápida de informações e evitando repetições desnecessárias.</li>
 
-## Code scaffolding
+<li>Gestão de Consultórios: Cadastre diferentes consultórios no sistema, especificando suas especialidades, facilitando assim a alocação e gestão dos recursos.</li>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<li>Painel de Senhas Dinâmico: Mantenha o fluxo de atendimento organizado com nosso painel de senhas. Os pacientes são chamados por senha e especialidade, assegurando que sejam atendidos no consultório correto.</li>
 
-## Build
+</ul>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+⚙️ **Tecnologias Utilizadas** <br>
+Back-end: *Spring Boot (Java)* <br>
+Front-end: *Angular*
+Style: *Angular Material*
