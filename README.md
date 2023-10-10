@@ -16,6 +16,8 @@ O Sistema de Atendimento foi projetado especificamente para clínicas e hospitai
 </ul>
 
 ⚙️ **Tecnologias Utilizadas** <br>
-Back-end: *Spring Boot (Java)* <br>
-Front-end: *Angular* <br>
-Style: *Angular Material*
+<ul>
+<li>Back-end: Spring Boot (Java) </li>
+<li>Front-end: Angular </li>
+<li>Style: Angular Material </li>
+</ul>
